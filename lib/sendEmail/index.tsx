@@ -29,7 +29,7 @@ const sendEmail = async ({
 	);
 
 	const mailOptions = {
-		from: email,
+		from: process.env.EMAIL,
 		to: process.env.EMAIL,
 		subject: `Message from ${name} - Dragoninventor Contact Form`,
 		html: emailHtml,

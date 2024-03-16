@@ -23,6 +23,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 				style={{
 					background:
 						"linear-gradient(160deg, rgba(87,106,168,1) 0%, rgba(115,132,196,1) 10%, rgba(152,164,219,1) 40%, rgba(197,189,247,1) 75%, rgba(204,163,231,1) 100%)",
+					backgroundAttachment: "fixed",
+					backgroundPosition: "center",
 				}}
 			>
 				<SiteHeader />

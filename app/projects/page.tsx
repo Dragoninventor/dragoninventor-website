@@ -33,6 +33,7 @@ const Projects: NextPage = () => {
 							key={"github"}
 							linkText={"Github"}
 							icon={<FaGithub />}
+							disabled={true}
 						/>,
 					]}
 				/>
@@ -73,6 +74,7 @@ const Projects: NextPage = () => {
 							key={"github"}
 							linkText={"Github"}
 							icon={<FaGithub />}
+							disabled={true}
 						/>,
 					]}
 				/>

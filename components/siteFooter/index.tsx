@@ -68,8 +68,16 @@ const SiteFooter = () => {
 							</FooterLink>
 						</div>
 
-						<p className={"flex flex-col items-start gap-2"}>
-							Have any questions or issues?{" "}
+						<p
+							className={
+								"flex flex-col items-start gap-4 border-y border-slate-200 py-6"
+							}
+						>
+							<span className={""}>
+								Do you have questions or are you interested in
+								learning about my work? I&apos;d love to connect
+								with you!
+							</span>
 							<Link
 								href={"/contact"}
 								className={

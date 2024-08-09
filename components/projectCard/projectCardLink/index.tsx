@@ -26,7 +26,6 @@ const ProjectCardLink = ({
 			tabIndex={disabled ? -1 : undefined}
 			className={`flex items-center gap-1.5 text-sm  underline transition-colors${className ? ` ${className}` : ""}${disabled ? " pointer-events-none text-gray-600" : " text-indigo-500 hover:text-indigo-700"}`}
 			{...props}
-			className={`flex items-center gap-1.5 text-sm text-indigo-500 underline transition-colors hover:text-indigo-700`}
 		>
 			<span className={""}>{linkText}</span>{" "}
 			<span className={""}>{icon}</span>

@@ -2,7 +2,12 @@ import Link from "next/link";
 import { DateTime } from "luxon";
 import { Cairo } from "next/font/google";
 import { ReactNode } from "react";
-import { AiFillHeart, AiFillHome, AiFillInfoCircle } from "react-icons/ai";
+import {
+	AiFillGithub,
+	AiFillHeart,
+	AiFillHome,
+	AiFillInfoCircle,
+} from "react-icons/ai";
 import Card from "@/components/card";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -54,6 +59,12 @@ const SiteFooter = () => {
 								icon={<AiFillHeart size={"1.25em"} />}
 							>
 								Projects
+							</FooterLink>
+							<FooterLink
+								href="https://github.com/Dragoninventor"
+								icon={<AiFillGithub size={"1.25em"} />}
+							>
+								Github
 							</FooterLink>
 						</div>
 
